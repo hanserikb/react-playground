@@ -3,12 +3,12 @@ const moment = require('moment');
 const Map = require('../../Map');
 
 const RideItem = props => {
-  let startDate = moment(props.ride.startData).format('MMMM Do');
-  let endDate = moment(props.ride.endData).format('MMMM Do');
-  let dateStr = startDate == endDate ? startDate : `${startDate} to ${endDate}`;
+  let startDate = moment(props.ride.startData).format('DD/MM');
+  let endDate = moment(props.ride.endData).format('DD/MM');
+  let dateStr = startDate == endDate ? 'Today' : `${startDate}-${endDate}`;
   return (
-    <li className="rides--listitem">
-      <span className="rides--listitem--text">{dateStr} | {props.ride.from.name} - {props.ride.to.name} | {props.ride.car} </span><Map latLng={[props.ride.from.station.location.latLng, props.ride.to.station.location.latLng]} />
+    <li className="rides--listitem" title={props.ride.car}>
+      <span className="rides--listitem--date">{dateStr}</span><span className="rides--listitem--location">{props.ride.from.name} - {props.ride.to.name}</span><Map latLng={[props.ride.from.station.location.latLng, props.ride.to.station.location.latLng]} />
     </li>
   )
 }

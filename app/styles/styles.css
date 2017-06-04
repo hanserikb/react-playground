@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -5,12 +13,12 @@ body {
 }
 
 .rides {
-  width: 650px;
+  width: 700px;
   height: 50vh;
   overflow: scroll;
-  background: rgba(255,255,255,.8);
+  background: rgba(255,255,255,.85);
   border-radius: 7px 7px 0 0;
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 9px 2px rgba(255, 255, 255, .2);
 }
 
 .rides--list {
@@ -25,15 +33,34 @@ body {
 .rides--listitem {
   display: flex;
   flex-direction: row;
+  font-weight: 200;
   height: 150px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, .1)
+  box-shadow: 0 2px 0 0 #e6e6e6, 0 3px 0 0 white;
+  padding-top: 3px;
+
+  text-transform: uppercase;
 }
 
-.rides--listitem--text {
-  padding-left: 25px;
+.rides--listitem:first-child {
+  padding-top: 0;
+}
+
+.rides--listitem--date {
+  flex: 110px 0 0;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  text-align: right;
+  font-size: 0.8em;
+}
+.rides--listitem--location {
+  width: 100%;
+  padding-right: 20px;
+
+  font-size: 1.2em;
 }
 
 .container {
