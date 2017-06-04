@@ -1,4 +1,6 @@
+var webpack = require('webpack');
 var HTMLWebpackPlugin = require('html-webpack-plugin');
+var WebpackNotifierPlugin = require('webpack-notifier');
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
   template: __dirname + '/app/index.html',
   inject: 'body'
@@ -27,5 +29,13 @@ module.exports = {
       }
     ]
   },
-  plugins: [HTMLWebpackPluginConfig]
+  devServer: {
+    hot: true, // Tell the dev-server we're using HMR
+    overlay: true,
+  },
+  plugins: [
+    HTMLWebpackPluginConfig,
+    new webpack.HotModuleReplacementPlugin(),
+    new WebpackNotifierPlugin(),
+  ]
 };
