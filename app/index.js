@@ -1,6 +1,6 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var PropTypes = require('prop-types');
+const React = require('react');
+const ReactDOM = require('react-dom');
+const Rides = require('./Rides');
 
 class App extends React.Component {
   constructor(props) {
@@ -38,24 +38,6 @@ class App extends React.Component {
     );
   }
 }
-
-const Rides = props => (
-  <div>
-    <h2>{ props.loading ? 'Loading..' : '' }</h2>
-    <ul>
-      { props.rides.map((ride, i) => (
-        <li key={`ride_${i}`}>
-          <h3>{ride.from.name} - {ride.to.name}</h3>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-Rides.propTypes = {
-  rides: PropTypes.array.isRequired,
-  loading: PropTypes.bool.isRequired
-}
-
 
 module.exports = App;
 ReactDOM.render(<App/>, document.getElementById('app'));
