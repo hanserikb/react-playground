@@ -4,7 +4,15 @@ const RideItem = require('./RideItem');
 
 const Rides = props => (
   <div className="rides">
-    { props.loading ? <h2>Loading..</h2> : '' }
+    { props.loading ? (
+      <div className="spinner">
+        <div className="rect1"></div>
+        <div className="rect2"></div>
+        <div className="rect3"></div>
+        <div className="rect4"></div>
+        <div className="rect5"></div>
+      </div>
+    ) : '' }
     <ul className="rides--list">
       { props.rides.map((ride, index) => <RideItem key={index} ride={ride} />) }
     </ul>

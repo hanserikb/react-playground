@@ -32,7 +32,7 @@ class App extends React.Component {
       .catch((err) => console.error('Something wrong happened: ', err));
   }
   componentDidMount() {
-    setTimeout(this.fetchRides.bind(this), 500);
+    setTimeout(this.fetchRides.bind(this), 2000);
   }
   render() {
     return (
