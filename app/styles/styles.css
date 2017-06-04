@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #56406a 0%,#515079 100%);
+}
+
+.rides {
+  width: 650px;
+  height: 50vh;
+  overflow: scroll;
+  background: rgba(255,255,255,.2);
+  border-radius: 7px 7px 0 0;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
+}
+
+.rides--list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rides--listitem {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  outline: 1px solid black;
+}
+
+.rides--listitem--text {
+  padding-left: 25px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}

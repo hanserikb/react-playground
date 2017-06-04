@@ -1,6 +1,8 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 const Rides = require('./Rides');
+const styles = require('./styles/styles.css');
+
 
 class App extends React.Component {
   constructor(props) {
