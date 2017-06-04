@@ -2,14 +2,14 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var PropTypes = require('prop-types');
 
-
-var App = React.createClass({
-  getInitialState: function() {
-    return {
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
       name: 'Hans'
-    }
-  },
-  render: function() {
+    };
+  }
+  render() {
     return (
     <div>
       <h1>Hello</h1>
@@ -17,14 +17,13 @@ var App = React.createClass({
     </div>
     );
   }
-});
-
-var SubComponent = function(props) {
-  return <h2>Hi {props.text}</h2>
 }
 
+const SubComponent = props => <h2>Hi {props.text}</h2>;
 SubComponent.propTypes = {
   text: PropTypes.string.isRequired
 }
 
+
+module.exports = App;
 ReactDOM.render(<App/>, document.getElementById('app'));
