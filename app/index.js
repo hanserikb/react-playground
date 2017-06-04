@@ -1,5 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var PropTypes = require('prop-types');
+
 
 var App = React.createClass({
   getInitialState: function() {
@@ -22,7 +24,7 @@ var SubComponent = function(props) {
 }
 
 SubComponent.propTypes = {
-  text: React.PropTypes.string.isRequired
+  text: PropTypes.string.isRequired
 }
 
 ReactDOM.render(<App/>, document.getElementById('app'));
