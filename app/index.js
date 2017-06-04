@@ -2,7 +2,7 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const Rides = require('./Rides');
 const styles = require('./styles/styles.css');
-
+const RideService = require('./RideService');
 
 class App extends React.Component {
   constructor(props) {
@@ -22,8 +22,7 @@ class App extends React.Component {
     }));
   }
   fetchRides() {
-    return fetch('http://localhost:3001/')
-      .then(res => res.json())
+    return RideService.fetch()
       .then(rides => this.setRides(rides))
       .then(this.stopLoading.bind(this))
       .catch((err) => console.error('Something wrong happened: ', err));
