@@ -34,7 +34,7 @@ class App extends React.Component {
   render() {
     return (
     <div>
-      <h1>{this.state.name}</h1>
+      <h1>{this.state.name} <a target="_blank" href="http://hertzfreerider.se/unauth/list_transport_offer.aspx">Book car</a></h1>
       <Rides rides={this.state.rides} loading={this.state.loading}/>
     </div>
     );
