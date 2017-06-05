@@ -1,41 +1,46 @@
-var webpack = require('webpack');
-var HTMLWebpackPlugin = require('html-webpack-plugin');
-var WebpackNotifierPlugin = require('webpack-notifier');
-var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-  template: __dirname + '/app/index.html',
-  inject: 'body'
+const webpack = require('webpack');
+const path = require('path');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const WebpackNotifierPlugin = require('webpack-notifier');
+
+const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
+  template: path.join(__dirname, '/app/index.html'),
+  inject: 'body',
 });
 
 module.exports = {
-  entry: __dirname + '/app/index.js',
+  entry: path.join(__dirname, '/app/index.jsx'),
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/build'
+    path: path.join(__dirname, '/build'),
   },
-  devtool: "inline-source-map",
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /(\.jsx|\.js)$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
       },
       {
         test: /\.css$/,
         loaders: [
           'style-loader',
-          'css-loader'
-        ]
-      }
-    ]
+          'css-loader',
+        ],
+      },
+    ],
   },
   devServer: {
     hot: true, // Tell the dev-server we're using HMR
     overlay: true,
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   plugins: [
     HTMLWebpackPluginConfig,
     new webpack.HotModuleReplacementPlugin(),
     new WebpackNotifierPlugin(),
-  ]
+  ],
 };

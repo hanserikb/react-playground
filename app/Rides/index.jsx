@@ -3,14 +3,8 @@ const PropTypes = require('prop-types');
 const RideItem = require('./RideItem');
 const Spinner = require('../Spinner');
 
-
-Rides.propTypes = {
-  rides: PropTypes.array.isRequired,
-  loading: PropTypes.bool.isRequired
-}
-
-function Rides({loading, rides}){
-    return (
+function Rides({ loading, rides }) {
+  return (
     <div className="rides">
       { <Spinner show={loading} /> }
       <ul className="rides--list">
@@ -19,5 +13,10 @@ function Rides({loading, rides}){
     </div>
   );
 }
+
+Rides.propTypes = {
+  rides: PropTypes.arrayOf(PropTypes.object).isRequired,
+  loading: PropTypes.bool.isRequired,
+};
 
 module.exports = Rides;
