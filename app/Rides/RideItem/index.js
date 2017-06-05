@@ -2,7 +2,7 @@ const React = require('react');
 const moment = require('moment');
 const Map = require('../../Map');
 
-const RideItem = ({ride}) => {
+function RideItem({ride}) {
   let startDate = moment(ride.startData).format('DD/MM');
   let endDate = moment(ride.endData).format('DD/MM');
   let dateStr = startDate == endDate ? 'Today' : `${startDate}-${endDate}`;
