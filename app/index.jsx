@@ -5,14 +5,19 @@ const RideService = require('./RideService');
 const moment = require('moment');
 const Router = require('react-router-dom').BrowserRouter;
 const Route = require('react-router-dom').Route;
-const Link = require('react-router-dom').Link;
+const NavLink = require('react-router-dom').NavLink;
 const Redirect = require('react-router-dom').Redirect;
 require('./styles/styles.css');
 
 
 class Nav extends React.Component {
   render() {
-    return <div><h1>Hello this is nav</h1></div>;
+    return (
+      <ul className="navigation">
+        <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
+        <li><NavLink activeClassName="active" to="/about">About</NavLink></li>
+      </ul>
+    );
   }
 }
 
@@ -28,7 +33,6 @@ class About extends React.Component {
 
 class App extends React.Component {
   constructor(props) {
-    console.log('ss')
     super(props);
     this.state = {
       name: 'Available freerider cars',
@@ -72,14 +76,14 @@ module.exports = App;
 ReactDOM.render(
   <Router path="/">
     <div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-      </ul>
-      <hr />
-      <div className="app-container">
-        <Route path="/about" component={About} />
-        <Route exact path="/" component={App} />
+      <div>
+        <Nav />
+      </div>
+      <div className="container">
+        <div className="app-container">
+          <Route exact path="/" component={App} />
+          <Route path="/about" component={About} />
+        </div>
       </div>
     </div>
   </Router>,
