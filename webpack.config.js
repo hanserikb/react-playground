@@ -34,6 +34,8 @@ module.exports = {
   devServer: {
     hot: true, // Tell the dev-server we're using HMR
     overlay: true,
+    historyApiFallback: true,
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
