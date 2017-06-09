@@ -1,0 +1,15 @@
+
+/* Navigation styling */
+.navigation {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.navigation a {
+  padding: 0 15px;
+  text-decoration: none;
+}
+.navigation .active {
+  font-weight: bold;
+}

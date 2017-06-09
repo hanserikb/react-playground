@@ -1,5 +1,6 @@
 const React = require('react');
 const PropTypes = require('prop-types');
+require('./styles.css');
 
 function Spinner({ show }) {
   return show ? (

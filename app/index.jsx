@@ -6,20 +6,8 @@ const moment = require('moment');
 const Router = require('react-router-dom').BrowserRouter;
 const Route = require('react-router-dom').Route;
 const NavLink = require('react-router-dom').NavLink;
-const Redirect = require('react-router-dom').Redirect;
+const Nav = require('./Nav');
 require('./styles/styles.css');
-
-
-class Nav extends React.Component {
-  render() {
-    return (
-      <ul className="navigation">
-        <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
-        <li><NavLink activeClassName="active" to="/about">About</NavLink></li>
-      </ul>
-    );
-  }
-}
 
 class About extends React.Component {
   constructor(props) {
@@ -27,7 +15,13 @@ class About extends React.Component {
   }
 
   render() {
-    return <div><h1>Hello this is About</h1></div>;
+    return (
+      <div className="about">
+        <h1>Hello this is about</h1>
+        <img src="https://i.imgflip.com/pgw3i.jpg" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat praesentium eius, ipsam voluptates. Voluptatum, qui quod facere debitis optio ab eum magnam nostrum unde illo modi, eaque perferendis cumque dolor!</p>
+      </div>
+    );
   }
 }
 
@@ -65,7 +59,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>{this.state.name} <a target="_blank" rel="noopener noreferrer" href="http://hertzfreerider.se/unauth/list_transport_offer.aspx">Book car</a></h1>
+        <h1>{this.state.name} <a target="_blank" rel="noopener noreferrer" href="http://hertzfreerider.se/unauth/list_transport_offer.aspx">Book</a></h1>
         <Rides rides={this.state.rides} loading={this.state.loading} />
       </div>
     );
