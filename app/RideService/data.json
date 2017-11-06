@@ -1,0 +1,2551 @@
+[{
+  "from": {
+    "name": "Östersund",
+    "station": {
+      "location": {
+        "street": "Regementsgatan 23",
+        "postalCode": "831 41",
+        "city": "Östersund",
+        "latLng": "63.17805,14.64568"
+      },
+      "contact": {
+        "email": "ostersund@fbab.eu",
+        "phone": "063-57 50 30"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "Volvo V60",
+  "startData": "2017-06-12T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Simrishamn",
+    "station": {
+      "location": {
+        "street": "Fredsdalsgatan 1",
+        "postalCode": "272 34",
+        "city": "Simrishamn",
+        "latLng": "55.55527,14.34027"
+      },
+      "contact": {
+        "email": "hyrbilar.ystad@bilbengtsson.se",
+        "phone": "0411-64800"
+      }
+    }
+  },
+  "to": {
+    "name": "Malmö Jörgen Kocksgatan",
+    "station": {
+      "location": {
+        "street": "Jörgen Kocksgatan 1B",
+        "postalCode": "211 20",
+        "city": "Malmö",
+        "latLng": "55.61138,12.99833"
+      },
+      "contact": {
+        "email": "malmo@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "FIAT 500X",
+  "startData": "2017-06-12T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Oskarshamn",
+    "station": {
+      "location": {
+        "street": "Inkörningsvägen 2",
+        "postalCode": "572 25",
+        "city": "Oskarshamn",
+        "latLng": "57.25146,16.44395"
+      },
+      "contact": {
+        "email": "anette.petersson@skobes.se",
+        "phone": "049189707"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "car": "RENAULT TRAFIC MINIBUSS",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Arboga",
+    "station": {
+      "location": {
+        "street": "Bensingatan 7",
+        "postalCode": "732 48",
+        "city": "Arboga",
+        "latLng": "59.38805,15.8675"
+      },
+      "contact": {
+        "email": "arboga@hertz.se",
+        "phone": "0589-166 62"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Arboga",
+    "station": {
+      "location": {
+        "street": "Bensingatan 7",
+        "postalCode": "732 48",
+        "city": "Arboga",
+        "latLng": "59.38805,15.8675"
+      },
+      "contact": {
+        "email": "arboga@hertz.se",
+        "phone": "0589-166 62"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Falkenberg",
+    "station": {
+      "location": {
+        "street": "Varbergsvägen 59-61",
+        "postalCode": "311 36",
+        "city": "Falkenberg",
+        "latLng": "56.91444,12.50361"
+      },
+      "contact": {
+        "email": "hertz.falkenberg@rejmesbil.se\t\t\t\t",
+        "phone": "0346-496 00"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "TOYOTA AURIS",
+  "startData": "2017-06-12T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Kristianstad",
+    "station": {
+      "location": {
+        "street": "Blekingevägen 107",
+        "postalCode": "291 25",
+        "city": "Kristianstad",
+        "latLng": "56.02527,14.16749"
+      },
+      "contact": {
+        "email": "ingela.rostrom@kristianstadsautomobil.se",
+        "phone": "044-20 60 20"
+      }
+    }
+  },
+  "to": {
+    "name": "Göteborg Sisjön",
+    "station": {
+      "location": {
+        "street": "Norra Långebergsgatan 3",
+        "postalCode": "400 97",
+        "city": "Göteborg",
+        "latLng": "57.6475,11.95527"
+      },
+      "contact": {
+        "email": "sisjon.biluthyrningen@bilia.se",
+        "phone": "031- 89 62 15"
+      }
+    }
+  },
+  "car": "V40",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Kalmar",
+    "station": {
+      "location": {
+        "street": "Norra Vägen 77-79",
+        "postalCode": "392 35",
+        "city": "Kalmar",
+        "latLng": "56.66722,16.35777"
+      },
+      "contact": {
+        "email": "hertz.kalmar@liljasbil.se",
+        "phone": "0480-944 20"
+      }
+    }
+  },
+  "to": {
+    "name": "Eskilstuna DT ",
+    "station": {
+      "location": {
+        "street": "Tullgatan 8",
+        "postalCode": "632 20",
+        "city": "Eskilstuna",
+        "latLng": "59.37378,16.50488"
+      },
+      "contact": {
+        "email": "hertz.eskilstuna@bilia.se",
+        "phone": "016-16 85 96"
+      }
+    }
+  },
+  "car": "V40",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Sälen",
+    "station": {
+      "location": {
+        "street": "Statoil Lindvallen",
+        "postalCode": "780 67",
+        "city": "Sälen",
+        "latLng": "61.16,13.26527"
+      },
+      "contact": {
+        "email": "salen@hertz.se",
+        "phone": "0280-260 65"
+      }
+    }
+  },
+  "to": {
+    "name": "Norrköping",
+    "station": {
+      "location": {
+        "street": "Lindövägen 60",
+        "postalCode": "602 28",
+        "city": "Norrköping",
+        "latLng": "58.59027,16.21611"
+      },
+      "contact": {
+        "email": "hertz.nrk@rejmes.se",
+        "phone": "011-21 91 72"
+      }
+    }
+  },
+  "car": "VOLVO V70",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Jönköping ",
+    "station": {
+      "location": {
+        "street": "Kålgårdsgatan 28",
+        "postalCode": "550 02",
+        "city": "Jönköping",
+        "latLng": "57.77801,14.18538"
+      },
+      "contact": {
+        "email": "hertz.jonkoping@nybergsbil.se",
+        "phone": "036-346442"
+      }
+    }
+  },
+  "to": {
+    "name": "Helsingborg",
+    "station": {
+      "location": {
+        "street": "Bergavägen 4",
+        "postalCode": "250 22",
+        "city": "Helsingborg",
+        "latLng": "56.07583,12.71944"
+      },
+      "contact": {
+        "email": "hertz@bildeve.se",
+        "phone": "042-17 25 40"
+      }
+    }
+  },
+  "car": "XC60",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Oskarshamn",
+    "station": {
+      "location": {
+        "street": "Inkörningsvägen 2",
+        "postalCode": "572 25",
+        "city": "Oskarshamn",
+        "latLng": "57.25146,16.44395"
+      },
+      "contact": {
+        "email": "anette.petersson@skobes.se",
+        "phone": "049189707"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "car": "Volvo V40",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Oskarshamn",
+    "station": {
+      "location": {
+        "street": "Inkörningsvägen 2",
+        "postalCode": "572 25",
+        "city": "Oskarshamn",
+        "latLng": "57.25146,16.44395"
+      },
+      "contact": {
+        "email": "anette.petersson@skobes.se",
+        "phone": "049189707"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "car": "Renault Megane",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Oskarshamn",
+    "station": {
+      "location": {
+        "street": "Inkörningsvägen 2",
+        "postalCode": "572 25",
+        "city": "Oskarshamn",
+        "latLng": "57.25146,16.44395"
+      },
+      "contact": {
+        "email": "anette.petersson@skobes.se",
+        "phone": "049189707"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "car": "Renault Megane",
+  "startData": "2017-06-13T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Motala",
+    "station": {
+      "location": {
+        "street": "Vintergatan 9",
+        "postalCode": "591 05",
+        "city": "Motala",
+        "latLng": "58.54666,15.04111"
+      },
+      "contact": {
+        "email": "biluthyrning.motala@skobes.se",
+        "phone": "0141-22 75 15"
+      }
+    }
+  },
+  "to": {
+    "name": "Norrköping",
+    "station": {
+      "location": {
+        "street": "Lindövägen 60",
+        "postalCode": "602 28",
+        "city": "Norrköping",
+        "latLng": "58.59027,16.21611"
+      },
+      "contact": {
+        "email": "hertz.nrk@rejmes.se",
+        "phone": "011-21 91 72"
+      }
+    }
+  },
+  "car": "XC60",
+  "startData": "2017-06-14T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Sundsvall AP",
+    "station": {
+      "location": {
+        "street": "LFV Svl-Härnösand Fpl",
+        "postalCode": "861 83",
+        "city": "Timrå",
+        "latLng": null
+      },
+      "contact": {
+        "email": "Sundsvall@hertz.se",
+        "phone": "060-669080"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Östermalm",
+    "station": {
+      "location": {
+        "street": "Östermalmstorg 4",
+        "postalCode": "114 42",
+        "city": "Stockholm",
+        "latLng": "59.33561,18.07898"
+      },
+      "contact": {
+        "email": "hertz.ostermalm@yahoo.se",
+        "phone": "08-660 55 85"
+      }
+    }
+  },
+  "car": "Renault Clio",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Jönköping ",
+    "station": {
+      "location": {
+        "street": "Kålgårdsgatan 28",
+        "postalCode": "550 02",
+        "city": "Jönköping",
+        "latLng": "57.77801,14.18538"
+      },
+      "contact": {
+        "email": "hertz.jonkoping@nybergsbil.se",
+        "phone": "036-346442"
+      }
+    }
+  },
+  "to": {
+    "name": "Växjö",
+    "station": {
+      "location": {
+        "street": "Ljungadalsgatan 1",
+        "postalCode": "352 46",
+        "city": "Växjö",
+        "latLng": "56.93138,14.72916"
+      },
+      "contact": {
+        "email": "hertz.vaxjo@liljasbil.se",
+        "phone": "0470-77 57 12"
+      }
+    }
+  },
+  "car": "KADJAR",
+  "startData": "2017-06-14T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Södertälje",
+    "station": {
+      "location": {
+        "street": "Morabergsvägen 12",
+        "postalCode": "152 42",
+        "city": "Södertälje",
+        "latLng": "59.20363,17.65886"
+      },
+      "contact": {
+        "email": "hyrbil.sodertalje@bilia.se",
+        "phone": "08-559 35 739"
+      }
+    }
+  },
+  "to": {
+    "name": "Växjö",
+    "station": {
+      "location": {
+        "street": "Ljungadalsgatan 1",
+        "postalCode": "352 46",
+        "city": "Växjö",
+        "latLng": "56.93138,14.72916"
+      },
+      "contact": {
+        "email": "hertz.vaxjo@liljasbil.se",
+        "phone": "0470-77 57 12"
+      }
+    }
+  },
+  "car": "V90",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Vetlanda",
+    "station": {
+      "location": {
+        "street": "Industrigatan 31",
+        "postalCode": "574 22",
+        "city": "Vetlanda",
+        "latLng": "57.42046,15.07993"
+      },
+      "contact": {
+        "email": "jorgen.turesson@skobes.se",
+        "phone": "0383-59601"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "VOLVO XC60",
+  "startData": "2017-06-14T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Kalmar",
+    "station": {
+      "location": {
+        "street": "Norra Vägen 77-79",
+        "postalCode": "392 35",
+        "city": "Kalmar",
+        "latLng": "56.66722,16.35777"
+      },
+      "contact": {
+        "email": "hertz.kalmar@liljasbil.se",
+        "phone": "0480-944 20"
+      }
+    }
+  },
+  "to": {
+    "name": "Göteborg Centralstation",
+    "station": {
+      "location": {
+        "street": "Spannmålsgatan 19",
+        "postalCode": "411 06",
+        "city": "Göteborg",
+        "latLng": "57.70861,11.97305"
+      },
+      "contact": {
+        "email": "goteborg@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "FORD GALAXY",
+  "startData": "2017-06-14T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Upplands Väsby",
+    "station": {
+      "location": {
+        "street": "Truckvägen 20",
+        "postalCode": "194 52",
+        "city": "Upplands Väsby",
+        "latLng": "59.51611,17.92638"
+      },
+      "contact": {
+        "email": "upplandsvasby@hertz.se",
+        "phone": "070-879 82 15"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Segeltorp",
+    "station": {
+      "location": {
+        "street": "Häradsvägen 255",
+        "postalCode": "141 72",
+        "city": "Segeltorp",
+        "latLng": "59.28511,-17.94618"
+      },
+      "contact": {
+        "email": "hyrbil.segeltorp@bilia.se ",
+        "phone": "08-7448058"
+      }
+    }
+  },
+  "car": "KADJAR",
+  "startData": "2017-06-14T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Göteborg Landvetter",
+    "station": {
+      "location": {
+        "street": "Landvetter Flygplats ",
+        "postalCode": "438 11",
+        "city": "Landvetter",
+        "latLng": "57.66805,12.295"
+      },
+      "contact": {
+        "email": "landvetter@hertz.se",
+        "phone": "031-946020"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Göteborg Landvetter",
+    "station": {
+      "location": {
+        "street": "Landvetter Flygplats ",
+        "postalCode": "438 11",
+        "city": "Landvetter",
+        "latLng": "57.66805,12.295"
+      },
+      "contact": {
+        "email": "landvetter@hertz.se",
+        "phone": "031-946020"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Göteborg Landvetter",
+    "station": {
+      "location": {
+        "street": "Landvetter Flygplats ",
+        "postalCode": "438 11",
+        "city": "Landvetter",
+        "latLng": "57.66805,12.295"
+      },
+      "contact": {
+        "email": "landvetter@hertz.se",
+        "phone": "031-946020"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Arboga",
+    "station": {
+      "location": {
+        "street": "Bensingatan 7",
+        "postalCode": "732 48",
+        "city": "Arboga",
+        "latLng": "59.38805,15.8675"
+      },
+      "contact": {
+        "email": "arboga@hertz.se",
+        "phone": "0589-166 62"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Arboga",
+    "station": {
+      "location": {
+        "street": "Bensingatan 7",
+        "postalCode": "732 48",
+        "city": "Arboga",
+        "latLng": "59.38805,15.8675"
+      },
+      "contact": {
+        "email": "arboga@hertz.se",
+        "phone": "0589-166 62"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Nyköping Skavsta AP",
+    "station": {
+      "location": {
+        "street": "Skavsta Flygplats",
+        "postalCode": "611 92",
+        "city": "Nyköping",
+        "latLng": "58.8,16.92277"
+      },
+      "contact": {
+        "email": "skavsta@hertz.se",
+        "phone": "0155-21 24 54"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Nyköping Skavsta AP",
+    "station": {
+      "location": {
+        "street": "Skavsta Flygplats",
+        "postalCode": "611 92",
+        "city": "Nyköping",
+        "latLng": "58.8,16.92277"
+      },
+      "contact": {
+        "email": "skavsta@hertz.se",
+        "phone": "0155-21 24 54"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Täby",
+    "station": {
+      "location": {
+        "street": "Enhagsvägen 6",
+        "postalCode": "187 40",
+        "city": "Täby",
+        "latLng": "59.43916,18.04888"
+      },
+      "contact": {
+        "email": "taby@hertz.se",
+        "phone": " 070-224 34 22"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Täby",
+    "station": {
+      "location": {
+        "street": "Enhagsvägen 6",
+        "postalCode": "187 40",
+        "city": "Täby",
+        "latLng": "59.43916,18.04888"
+      },
+      "contact": {
+        "email": "taby@hertz.se",
+        "phone": " 070-224 34 22"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Kista",
+    "station": {
+      "location": {
+        "street": "Danmarksgatan 52",
+        "postalCode": "164 40",
+        "city": "Kista",
+        "latLng": "59.40277,17.915"
+      },
+      "contact": {
+        "email": "kista@hertz.se",
+        "phone": "08-751 89 30"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Kista",
+    "station": {
+      "location": {
+        "street": "Danmarksgatan 52",
+        "postalCode": "164 40",
+        "city": "Kista",
+        "latLng": "59.40277,17.915"
+      },
+      "contact": {
+        "email": "kista@hertz.se",
+        "phone": "08-751 89 30"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Härnösand",
+    "station": {
+      "location": {
+        "street": "Stationsgatan 1",
+        "postalCode": "871 45",
+        "city": "Härnösand",
+        "latLng": "62.635,17.92972"
+      },
+      "contact": {
+        "email": "hno90@hertz.se",
+        "phone": "0611-150 50"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Härnösand",
+    "station": {
+      "location": {
+        "street": "Stationsgatan 1",
+        "postalCode": "871 45",
+        "city": "Härnösand",
+        "latLng": "62.635,17.92972"
+      },
+      "contact": {
+        "email": "hno90@hertz.se",
+        "phone": "0611-150 50"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Norrköping",
+    "station": {
+      "location": {
+        "street": "Lindövägen 60",
+        "postalCode": "602 28",
+        "city": "Norrköping",
+        "latLng": "58.59027,16.21611"
+      },
+      "contact": {
+        "email": "hertz.nrk@rejmes.se",
+        "phone": "011-21 91 72"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Kungsholmen",
+    "station": {
+      "location": {
+        "street": "Strandbergsgatan 16",
+        "postalCode": "112 51",
+        "city": "Stockholm",
+        "latLng": "59.33823,18.01145"
+      },
+      "contact": {
+        "email": "kungsholmen@hertz.se",
+        "phone": "08-656 95 90"
+      }
+    }
+  },
+  "car": "Volvo V60",
+  "startData": "2017-06-14T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "to": {
+    "name": "Oslo Centralstation",
+    "station": {
+      "location": {
+        "street": "Jernbanetorget 1",
+        "postalCode": "0154",
+        "city": "Oslo ",
+        "latLng": null
+      },
+      "contact": {
+        "email": "hertz.sentralbanen@hertz.no",
+        "phone": "+4722176722 "
+      }
+    }
+  },
+  "car": "RENAULT KANGOO",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Borlänge",
+    "station": {
+      "location": {
+        "street": "Smedjebacksvägen, Buskåker",
+        "postalCode": "784 63",
+        "city": "Borlänge",
+        "latLng": "60.42277,15.44472"
+      },
+      "contact": {
+        "email": "jonas.skogbergs@rebil.se",
+        "phone": "0243-25 77 72"
+      }
+    }
+  },
+  "to": {
+    "name": "Västerås",
+    "station": {
+      "location": {
+        "street": "Elledningsgatan 1",
+        "postalCode": "721 37",
+        "city": "Västerås",
+        "latLng": "59.64222,16.56583"
+      },
+      "contact": {
+        "email": "hertz.vasteras@bilia.se",
+        "phone": "010 497 28 00"
+      }
+    }
+  },
+  "car": "VOLVO XC70 AUT",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Motala",
+    "station": {
+      "location": {
+        "street": "Vintergatan 9",
+        "postalCode": "591 05",
+        "city": "Motala",
+        "latLng": "58.54666,15.04111"
+      },
+      "contact": {
+        "email": "biluthyrning.motala@skobes.se",
+        "phone": "0141-22 75 15"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "S60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Markaryd",
+    "station": {
+      "location": {
+        "street": "Hässleholmsvägen 2",
+        "postalCode": "285 33",
+        "city": "Markaryd",
+        "latLng": "56.45861,13.6025"
+      },
+      "contact": {
+        "email": "kenny.nilsson@goingebil.se",
+        "phone": "0433-120 52"
+      }
+    }
+  },
+  "to": {
+    "name": "Linköping",
+    "station": {
+      "location": {
+        "street": "Vigfastgatan 1",
+        "postalCode": "581 03",
+        "city": "Linköping",
+        "latLng": "58.40388,15.62111"
+      },
+      "contact": {
+        "email": "hertz.lin@rejmes.se",
+        "phone": "013-20 35 26"
+      }
+    }
+  },
+  "car": "Volvo V70",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Helsingborg",
+    "station": {
+      "location": {
+        "street": "Bergavägen 4",
+        "postalCode": "250 22",
+        "city": "Helsingborg",
+        "latLng": "56.07583,12.71944"
+      },
+      "contact": {
+        "email": "hertz@bildeve.se",
+        "phone": "042-17 25 40"
+      }
+    }
+  },
+  "to": {
+    "name": "Linköping",
+    "station": {
+      "location": {
+        "street": "Vigfastgatan 1",
+        "postalCode": "581 03",
+        "city": "Linköping",
+        "latLng": "58.40388,15.62111"
+      },
+      "contact": {
+        "email": "hertz.lin@rejmes.se",
+        "phone": "013-20 35 26"
+      }
+    }
+  },
+  "car": "Renualt Megane",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Halmstad",
+    "station": {
+      "location": {
+        "street": "Kristinehedsvägen",
+        "postalCode": "302 44",
+        "city": "Halmstad",
+        "latLng": "56.67749,12.88027"
+      },
+      "contact": {
+        "email": "hertz.halmstad@rejmesbil.se",
+        "phone": "035-280 90 91"
+      }
+    }
+  },
+  "to": {
+    "name": "Linköping",
+    "station": {
+      "location": {
+        "street": "Vigfastgatan 1",
+        "postalCode": "581 03",
+        "city": "Linköping",
+        "latLng": "58.40388,15.62111"
+      },
+      "contact": {
+        "email": "hertz.lin@rejmes.se",
+        "phone": "013-20 35 26"
+      }
+    }
+  },
+  "car": "Volvo V40 Automat",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Halmstad",
+    "station": {
+      "location": {
+        "street": "Kristinehedsvägen",
+        "postalCode": "302 44",
+        "city": "Halmstad",
+        "latLng": "56.67749,12.88027"
+      },
+      "contact": {
+        "email": "hertz.halmstad@rejmesbil.se",
+        "phone": "035-280 90 91"
+      }
+    }
+  },
+  "to": {
+    "name": "Linköping",
+    "station": {
+      "location": {
+        "street": "Vigfastgatan 1",
+        "postalCode": "581 03",
+        "city": "Linköping",
+        "latLng": "58.40388,15.62111"
+      },
+      "contact": {
+        "email": "hertz.lin@rejmes.se",
+        "phone": "013-20 35 26"
+      }
+    }
+  },
+  "car": "Volvo V60 Automat",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Säffle",
+    "station": {
+      "location": {
+        "street": "Karlstadsvägen 26",
+        "postalCode": "661 41 ",
+        "city": "Säffle",
+        "latLng": "59.1375,12.9425"
+      },
+      "contact": {
+        "email": "17-18@assistancekaren.se",
+        "phone": "0533-10045"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "VOLVO V40",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Kalmar",
+    "station": {
+      "location": {
+        "street": "Norra Vägen 77-79",
+        "postalCode": "392 35",
+        "city": "Kalmar",
+        "latLng": "56.66722,16.35777"
+      },
+      "contact": {
+        "email": "hertz.kalmar@liljasbil.se",
+        "phone": "0480-944 20"
+      }
+    }
+  },
+  "to": {
+    "name": "Göteborg Sisjön",
+    "station": {
+      "location": {
+        "street": "Norra Långebergsgatan 3",
+        "postalCode": "400 97",
+        "city": "Göteborg",
+        "latLng": "57.6475,11.95527"
+      },
+      "contact": {
+        "email": "sisjon.biluthyrningen@bilia.se",
+        "phone": "031- 89 62 15"
+      }
+    }
+  },
+  "car": "RENAULT MÉGANE",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-21T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Ronneby Flygplats",
+    "station": {
+      "location": {
+        "street": "Bredåkravägen 26",
+        "postalCode": "372 92",
+        "city": "Ronneby ",
+        "latLng": "56.26027,15.26361"
+      },
+      "contact": {
+        "email": "ronneby@hertz.se",
+        "phone": "0457-150 03"
+      }
+    }
+  },
+  "to": {
+    "name": "Växjö",
+    "station": {
+      "location": {
+        "street": "Ljungadalsgatan 1",
+        "postalCode": "352 46",
+        "city": "Växjö",
+        "latLng": "56.93138,14.72916"
+      },
+      "contact": {
+        "email": "hertz.vaxjo@liljasbil.se",
+        "phone": "0470-77 57 12"
+      }
+    }
+  },
+  "car": "CLIO",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Arvidsjaur",
+    "station": {
+      "location": {
+        "street": "Storgatan 81",
+        "postalCode": "933 33 ",
+        "city": "Arvidsjaur",
+        "latLng": "65.59166,19.18111"
+      },
+      "contact": {
+        "email": "hertz.ajaur@nordiskabil.se",
+        "phone": "0960-65 45 53"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "Ford Galaxy",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Ronneby Flygplats",
+    "station": {
+      "location": {
+        "street": "Bredåkravägen 26",
+        "postalCode": "372 92",
+        "city": "Ronneby ",
+        "latLng": "56.26027,15.26361"
+      },
+      "contact": {
+        "email": "ronneby@hertz.se",
+        "phone": "0457-150 03"
+      }
+    }
+  },
+  "to": {
+    "name": "Växjö",
+    "station": {
+      "location": {
+        "street": "Ljungadalsgatan 1",
+        "postalCode": "352 46",
+        "city": "Växjö",
+        "latLng": "56.93138,14.72916"
+      },
+      "contact": {
+        "email": "hertz.vaxjo@liljasbil.se",
+        "phone": "0470-77 57 12"
+      }
+    }
+  },
+  "car": "V60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Sundsvall AP",
+    "station": {
+      "location": {
+        "street": "LFV Svl-Härnösand Fpl",
+        "postalCode": "861 83",
+        "city": "Timrå",
+        "latLng": null
+      },
+      "contact": {
+        "email": "Sundsvall@hertz.se",
+        "phone": "060-669080"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "Volvo V60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Sundsvall AP",
+    "station": {
+      "location": {
+        "street": "LFV Svl-Härnösand Fpl",
+        "postalCode": "861 83",
+        "city": "Timrå",
+        "latLng": null
+      },
+      "contact": {
+        "email": "Sundsvall@hertz.se",
+        "phone": "060-669080"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "Volvo V60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Motala",
+    "station": {
+      "location": {
+        "street": "Vintergatan 9",
+        "postalCode": "591 05",
+        "city": "Motala",
+        "latLng": "58.54666,15.04111"
+      },
+      "contact": {
+        "email": "biluthyrning.motala@skobes.se",
+        "phone": "0141-22 75 15"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "FOCUS",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Göteborg Landvetter",
+    "station": {
+      "location": {
+        "street": "Landvetter Flygplats ",
+        "postalCode": "438 11",
+        "city": "Landvetter",
+        "latLng": "57.66805,12.295"
+      },
+      "contact": {
+        "email": "landvetter@hertz.se",
+        "phone": "031-946020"
+      }
+    }
+  },
+  "to": {
+    "name": "Linköping",
+    "station": {
+      "location": {
+        "street": "Vigfastgatan 1",
+        "postalCode": "581 03",
+        "city": "Linköping",
+        "latLng": "58.40388,15.62111"
+      },
+      "contact": {
+        "email": "hertz.lin@rejmes.se",
+        "phone": "013-20 35 26"
+      }
+    }
+  },
+  "car": "Renualt Megane",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Östersund",
+    "station": {
+      "location": {
+        "street": "Regementsgatan 23",
+        "postalCode": "831 41",
+        "city": "Östersund",
+        "latLng": "63.17805,14.64568"
+      },
+      "contact": {
+        "email": "ostersund@fbab.eu",
+        "phone": "063-57 50 30"
+      }
+    }
+  },
+  "to": {
+    "name": "Umeå Verkstadsgatan",
+    "station": {
+      "location": {
+        "street": "Verkstadsgatan 9-11 (Volvo)",
+        "postalCode": "901 24",
+        "city": "Umeå",
+        "latLng": "63.8175,20.24666"
+      },
+      "contact": {
+        "email": "hertzume@bilbolaget.com",
+        "phone": "090-17 71 40"
+      }
+    }
+  },
+  "car": "Volvo V60 CC",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Östersund",
+    "station": {
+      "location": {
+        "street": "Regementsgatan 23",
+        "postalCode": "831 41",
+        "city": "Östersund",
+        "latLng": "63.17805,14.64568"
+      },
+      "contact": {
+        "email": "ostersund@fbab.eu",
+        "phone": "063-57 50 30"
+      }
+    }
+  },
+  "to": {
+    "name": "Umeå Verkstadsgatan",
+    "station": {
+      "location": {
+        "street": "Verkstadsgatan 9-11 (Volvo)",
+        "postalCode": "901 24",
+        "city": "Umeå",
+        "latLng": "63.8175,20.24666"
+      },
+      "contact": {
+        "email": "hertzume@bilbolaget.com",
+        "phone": "090-17 71 40"
+      }
+    }
+  },
+  "car": "Renault Kadjar",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Hudiksvall",
+    "station": {
+      "location": {
+        "street": "Kungsgatan 51",
+        "postalCode": "824 30",
+        "city": "Hudiksvall",
+        "latLng": "61.72916,17.11583"
+      },
+      "contact": {
+        "email": "hertz.hasse@telia.com",
+        "phone": "0650-311 21"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Södermalm",
+    "station": {
+      "location": {
+        "street": "Åsögatan 108 (Kod P-hus:3681) ",
+        "postalCode": "118 29",
+        "city": "Stockholm",
+        "latLng": "59.31277,18.07333"
+      },
+      "contact": {
+        "email": "soder@hertz.se",
+        "phone": "08-556 932 40"
+      }
+    }
+  },
+  "car": "Volvo V60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Hudiksvall",
+    "station": {
+      "location": {
+        "street": "Kungsgatan 51",
+        "postalCode": "824 30",
+        "city": "Hudiksvall",
+        "latLng": "61.72916,17.11583"
+      },
+      "contact": {
+        "email": "hertz.hasse@telia.com",
+        "phone": "0650-311 21"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "car": "Volvo V40",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Göteborg Landvetter",
+    "station": {
+      "location": {
+        "street": "Landvetter Flygplats ",
+        "postalCode": "438 11",
+        "city": "Landvetter",
+        "latLng": "57.66805,12.295"
+      },
+      "contact": {
+        "email": "landvetter@hertz.se",
+        "phone": "031-946020"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-18T00:00:00+02:00",
+  "endData": "2017-06-19T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Göteborg Landvetter",
+    "station": {
+      "location": {
+        "street": "Landvetter Flygplats ",
+        "postalCode": "438 11",
+        "city": "Landvetter",
+        "latLng": "57.66805,12.295"
+      },
+      "contact": {
+        "email": "landvetter@hertz.se",
+        "phone": "031-946020"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Arlanda ",
+    "station": {
+      "location": {
+        "street": "Arlanda Hyrbilscenter, Buss 17",
+        "postalCode": "190 45",
+        "city": "Arlanda",
+        "latLng": "59.63805,17.93944"
+      },
+      "contact": {
+        "email": "arlanda@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-18T00:00:00+02:00",
+  "endData": "2017-06-19T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Luleå Kallax",
+    "station": {
+      "location": {
+        "street": "Flygstationsvägen 4",
+        "postalCode": "972 54",
+        "city": "Luleå",
+        "latLng": "65.545,22.11666"
+      },
+      "contact": {
+        "email": "lulea@hertz.se",
+        "phone": "0920-873 44"
+      }
+    }
+  },
+  "to": {
+    "name": "Umeå Verkstadsgatan",
+    "station": {
+      "location": {
+        "street": "Verkstadsgatan 9-11 (Volvo)",
+        "postalCode": "901 24",
+        "city": "Umeå",
+        "latLng": "63.8175,20.24666"
+      },
+      "contact": {
+        "email": "hertzume@bilbolaget.com",
+        "phone": "090-17 71 40"
+      }
+    }
+  },
+  "car": "",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Växjö",
+    "station": {
+      "location": {
+        "street": "Ljungadalsgatan 1",
+        "postalCode": "352 46",
+        "city": "Växjö",
+        "latLng": "56.93138,14.72916"
+      },
+      "contact": {
+        "email": "hertz.vaxjo@liljasbil.se",
+        "phone": "0470-77 57 12"
+      }
+    }
+  },
+  "to": {
+    "name": "Malmö Jörgen Kocksgatan",
+    "station": {
+      "location": {
+        "street": "Jörgen Kocksgatan 1B",
+        "postalCode": "211 20",
+        "city": "Malmö",
+        "latLng": "55.61138,12.99833"
+      },
+      "contact": {
+        "email": "malmo@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "VOLVO V60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Vänersborg",
+    "station": {
+      "location": {
+        "street": "Johannesbergsvägen 1",
+        "postalCode": "462 40",
+        "city": "Vänersborg",
+        "latLng": "58.36277,12.335"
+      },
+      "contact": {
+        "email": "hertz@brandtbil.se",
+        "phone": "0521-28 15 00"
+      }
+    }
+  },
+  "to": {
+    "name": "Malmö Jörgen Kocksgatan",
+    "station": {
+      "location": {
+        "street": "Jörgen Kocksgatan 1B",
+        "postalCode": "211 20",
+        "city": "Malmö",
+        "latLng": "55.61138,12.99833"
+      },
+      "contact": {
+        "email": "malmo@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "VOLVO V60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Kalmar",
+    "station": {
+      "location": {
+        "street": "Norra Vägen 77-79",
+        "postalCode": "392 35",
+        "city": "Kalmar",
+        "latLng": "56.66722,16.35777"
+      },
+      "contact": {
+        "email": "hertz.kalmar@liljasbil.se",
+        "phone": "0480-944 20"
+      }
+    }
+  },
+  "to": {
+    "name": "Malmö Jörgen Kocksgatan",
+    "station": {
+      "location": {
+        "street": "Jörgen Kocksgatan 1B",
+        "postalCode": "211 20",
+        "city": "Malmö",
+        "latLng": "55.61138,12.99833"
+      },
+      "contact": {
+        "email": "malmo@hertz.se",
+        "phone": ""
+      }
+    }
+  },
+  "car": "RENAULT CAPTUR",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Västerås",
+    "station": {
+      "location": {
+        "street": "Elledningsgatan 1",
+        "postalCode": "721 37",
+        "city": "Västerås",
+        "latLng": "59.64222,16.56583"
+      },
+      "contact": {
+        "email": "hertz.vasteras@bilia.se",
+        "phone": "010 497 28 00"
+      }
+    }
+  },
+  "to": {
+    "name": "Skövde",
+    "station": {
+      "location": {
+        "street": "Mellomkvarnsvägen 2",
+        "postalCode": "541 29",
+        "city": "Skövde",
+        "latLng": "58.41908,13.87015"
+      },
+      "contact": {
+        "email": "fredrik.hellmuth@bilia.se",
+        "phone": "0500-47 34 00"
+      }
+    }
+  },
+  "car": "XC90",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Eskilstuna Bilia",
+    "station": {
+      "location": {
+        "street": "Mått Johanssons Väg 54",
+        "postalCode": "633 46",
+        "city": "Eskilstuna",
+        "latLng": "59.38888,16.46805"
+      },
+      "contact": {
+        "email": "hertz.eskilstuna@bilia.se",
+        "phone": "016-168518"
+      }
+    }
+  },
+  "to": {
+    "name": "Stockholm Odenplan",
+    "station": {
+      "location": {
+        "street": "Gyldengatan 6",
+        "postalCode": "113 29",
+        "city": "Stockholm",
+        "latLng": "59.34237,18.052532"
+      },
+      "contact": {
+        "email": "stk62@hertz.se",
+        "phone": "0702499117"
+      }
+    }
+  },
+  "car": "Volvo XC60",
+  "startData": "2017-06-15T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "to": {
+    "name": "Skellefteå",
+    "station": {
+      "location": {
+        "street": "Tjärnvägen 15",
+        "postalCode": "931 42",
+        "city": "Skellefteå",
+        "latLng": "64.73583,20.96305"
+      },
+      "contact": {
+        "email": "skelleftea@hertz.se",
+        "phone": "0910-380 00"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-26T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "to": {
+    "name": "Skellefteå",
+    "station": {
+      "location": {
+        "street": "Tjärnvägen 15",
+        "postalCode": "931 42",
+        "city": "Skellefteå",
+        "latLng": "64.73583,20.96305"
+      },
+      "contact": {
+        "email": "skelleftea@hertz.se",
+        "phone": "0910-380 00"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-26T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "to": {
+    "name": "Skellefteå",
+    "station": {
+      "location": {
+        "street": "Tjärnvägen 15",
+        "postalCode": "931 42",
+        "city": "Skellefteå",
+        "latLng": "64.73583,20.96305"
+      },
+      "contact": {
+        "email": "skelleftea@hertz.se",
+        "phone": "0910-380 00"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-26T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "to": {
+    "name": "Luleå Kallax",
+    "station": {
+      "location": {
+        "street": "Flygstationsvägen 4",
+        "postalCode": "972 54",
+        "city": "Luleå",
+        "latLng": "65.545,22.11666"
+      },
+      "contact": {
+        "email": "lulea@hertz.se",
+        "phone": "0920-873 44"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-26T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "to": {
+    "name": "Luleå Kallax",
+    "station": {
+      "location": {
+        "street": "Flygstationsvägen 4",
+        "postalCode": "972 54",
+        "city": "Luleå",
+        "latLng": "65.545,22.11666"
+      },
+      "contact": {
+        "email": "lulea@hertz.se",
+        "phone": "0920-873 44"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-26T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "to": {
+    "name": "Ludvika",
+    "station": {
+      "location": {
+        "street": "Tunnelgatan 2, Mossplan",
+        "postalCode": "771 33",
+        "city": "Ludvika",
+        "latLng": "60.08361,16.33333"
+      },
+      "contact": {
+        "email": "hertz.lud@gsbil.se",
+        "phone": "0240-878 42"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Stockholm Centralstation",
+    "station": {
+      "location": {
+        "street": "Mäster Samuelsgatan 71",
+        "postalCode": "111 21",
+        "city": "Stockholm",
+        "latLng": "59.33166,18.05888"
+      },
+      "contact": {
+        "email": "vasagatan@hertz.se",
+        "phone": "084546250"
+      }
+    }
+  },
+  "to": {
+    "name": "Ludvika",
+    "station": {
+      "location": {
+        "street": "Tunnelgatan 2, Mossplan",
+        "postalCode": "771 33",
+        "city": "Ludvika",
+        "latLng": "60.08361,16.33333"
+      },
+      "contact": {
+        "email": "hertz.lud@gsbil.se",
+        "phone": "0240-878 42"
+      }
+    }
+  },
+  "car": "Personbil",
+  "startData": "2017-06-25T00:00:00+02:00",
+  "endData": "2017-06-25T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Hässleholm",
+    "station": {
+      "location": {
+        "street": "Norra Kringelvägen 70",
+        "postalCode": "281 21",
+        "city": "Hässleholm",
+        "latLng": "56.16972,13.76666"
+      },
+      "contact": {
+        "email": "martin.cederfelt@goingebil.se",
+        "phone": "010-1670862"
+      }
+    }
+  },
+  "to": {
+    "name": "Karlskrona",
+    "station": {
+      "location": {
+        "street": "Gullbernavägen 22",
+        "postalCode": "371 47",
+        "city": "Karlskrona",
+        "latLng": "59.2025,15.63611"
+      },
+      "contact": {
+        "email": "karlskrona@hertz.se",
+        "phone": "0455-144 75"
+      }
+    }
+  },
+  "car": "Volvo V60 R-Design D4 Aut",
+  "startData": "2017-06-16T00:00:00+02:00",
+  "endData": "2017-06-16T00:00:00+02:00"
+}, {
+  "from": {
+    "name": "Ängelholms Flygplats",
+    "station": {
+      "location": {
+        "street": "Ängelholms Flygplats",
+        "postalCode": "262 91",
+        "city": "Ängelholm",
+        "latLng": "56.28694,12.83416"
+      },
+      "contact": {
+        "email": "hertz.angelholm@telia.com",
+        "phone": "0431-242 70"
+      }
+    }
+  },
+  "to": {
+    "name": "Karlskrona",
+    "station": {
+      "location": {
+        "street": "Gullbernavägen 22",
+        "postalCode": "371 47",
+        "city": "Karlskrona",
+        "latLng": "59.2025,15.63611"
+      },
+      "contact": {
+        "email": "karlskrona@hertz.se",
+        "phone": "0455-144 75"
+      }
+    }
+  },
+  "car": "Renault Clio",
+  "startData": "2017-06-16T00:00:00+02:00",
+  "endData": "2017-06-19T00:00:00+02:00"
+}]

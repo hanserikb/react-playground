@@ -1,14 +1,19 @@
+const cacheData = require('./data.json');
+
 const RideService = {
   rides: null,
   fetch() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       if (this.rides) return resolve(this.rides);
       return fetch('http://localhost:3001/')
         .then(res => resolve(res.json()))
         .then((rides) => {
           this.rides = rides;
         })
-        .catch(reject);
+        .catch(() => {
+          this.rides = cacheData;
+          resolve(this.rides);
+        });
     });
   },
 };
