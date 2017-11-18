@@ -1,41 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Rides from './Rides';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './Nav';
+import Home from './containers/Home';
+import About from './containers/About';
+import Contact from './containers/Contact';
 
 require('./styles/styles.css');
 
-const About = () => (
-  <div className="about">
-    <h1>Hello this is about</h1>
-    <img alt="this is a thing" src="https://i.imgflip.com/pgw3i.jpg" />
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Fugiat praesentium eius, ipsam voluptates.
-      Voluptatum, qui quod facere debitis optio ab eum magnam nostrum unde illo modi,
-      eaque perferendis cumque dolor!</p>
-  </div>
-);
-
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: 'Available freerider cars',
-    };
-  }
-
-  render() {
-    return (
-      <div>
-        <h1>{this.state.name} <a target="_blank" rel="noopener noreferrer" href="http://hertzfreerider.se/unauth/list_transport_offer.aspx">Book</a></h1>
-        <Rides />
-      </div>
-    );
-  }
-}
-
-export default App;
 ReactDOM.render(
   <Router path="/">
     <div>
@@ -44,8 +16,9 @@ ReactDOM.render(
       </div>
       <div className="container">
         <div className="app-container">
-          <Route exact path="/" component={App} />
+          <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
         </div>
       </div>
     </div>
