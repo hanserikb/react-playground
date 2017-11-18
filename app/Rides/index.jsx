@@ -12,6 +12,7 @@ class Rides extends Component {
     this.fetchRides = this.fetchRides.bind(this);
     this.startLoading = this.startLoading.bind(this);
     this.stopLoading = this.stopLoading.bind(this);
+    this.onFilterTextChanged = this.onFilterTextChanged.bind(this);
     this.state = {
       loading: false,
       rides: [],
@@ -22,9 +23,24 @@ class Rides extends Component {
     return this.fetchRides();
   }
 
+  onFilterTextChanged(event) {
+    const filterTerm = event.target.value.trim();
+    this.setState({
+      filteredRides: filterTerm ? this.state.rides.filter(ride =>
+        ride.from.station.location.city
+          .toLowerCase()
+          .includes(filterTerm.toLowerCase()) ||
+        ride.to.station.location.city
+          .toLowerCase()
+          .includes(filterTerm.toLowerCase()),
+      ) : this.state.rides,
+    });
+  }
+
   setRides(rides) {
     this.setState({
       rides,
+      filteredRides: rides,
     });
   }
 
@@ -59,8 +75,9 @@ class Rides extends Component {
   render() {
     return (<div className="rides">
       { <Spinner show={this.state.loading} /> }
+      <input type="text" onChange={this.onFilterTextChanged} />
       { this.state.rides.length && <ul className="rides--list">
-        { this.state.rides.map((ride, index) => <RideItem key={index} ride={ride} />) }
+        { this.state.filteredRides.map((ride, index) => <RideItem key={index} ride={ride} />) }
       </ul>}
     </div>);
   }
