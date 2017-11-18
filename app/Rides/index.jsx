@@ -2,8 +2,10 @@ const React = require('react');
 const Component = require('react').Component;
 const RideItem = require('./RideItem');
 const Spinner = require('../Spinner');
+const Hr = require('../SearchBorder');
 const moment = require('moment');
 const RideService = require('../RideService');
+require('./styles.css');
 
 class Rides extends Component {
 
@@ -16,6 +18,7 @@ class Rides extends Component {
     this.state = {
       loading: false,
       rides: [],
+      filteredRides: [],
     };
   }
 
@@ -25,15 +28,19 @@ class Rides extends Component {
 
   onFilterTextChanged(event) {
     const filterTerm = event.target.value.trim();
-    this.setState({
-      filteredRides: filterTerm ? this.state.rides.filter(ride =>
-        ride.from.station.location.city
+
+    function rideFilter(ride) {
+      return ride.from.station.location.city
           .toLowerCase()
           .includes(filterTerm.toLowerCase()) ||
         ride.to.station.location.city
           .toLowerCase()
-          .includes(filterTerm.toLowerCase()),
-      ) : this.state.rides,
+          .includes(filterTerm.toLowerCase());
+    }
+
+    this.setState({
+      filterTerm,
+      filteredRides: filterTerm ? this.state.rides.filter(rideFilter) : this.state.rides,
     });
   }
 
@@ -63,9 +70,9 @@ class Rides extends Component {
           moment(ride.endData).isSame(new Date(), 'day') ? -1 : 1);
     }
 
-    this.startLoading();
 
-    return RideService.fetch()
+    return new Promise(resolve => resolve(this.startLoading))
+      .then(RideService.fetch)
       .then(rides => sortThings(rides))
       .then(rides => this.setRides(rides))
       .then(this.stopLoading)
@@ -75,8 +82,10 @@ class Rides extends Component {
   render() {
     return (<div className="rides">
       { <Spinner show={this.state.loading} /> }
-      <input type="text" onChange={this.onFilterTextChanged} />
+      <input className="rides--filter" placeholder="Search..." type="text" onChange={this.onFilterTextChanged} />
+      { <Hr defaultWidth={90} filteredItems={this.state.filteredRides} items={this.state.rides}/>}
       { this.state.rides.length && <ul className="rides--list">
+
         { this.state.filteredRides.map((ride, index) => <RideItem key={index} ride={ride} />) }
       </ul>}
     </div>);

@@ -1,0 +1,12 @@
+.rides--filter {
+  width: 100%;
+  padding: 20px 15px;
+  border: 0;
+  outline: 0;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+hr {
+  transition: width .3s ease-in-out;
+}
