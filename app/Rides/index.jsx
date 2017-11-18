@@ -1,10 +1,9 @@
-const React = require('react');
-const Component = require('react').Component;
-const RideItem = require('./RideItem');
-const Spinner = require('../Spinner');
-const Hr = require('../SearchBorder');
-const moment = require('moment');
-const RideService = require('../RideService');
+import React, { Component } from 'react';
+import RideItem from './RideItem';
+import Spinner from '../Spinner';
+import Hr from '../SearchBorder';
+import moment from 'moment';
+import RideService from '../RideService';
 require('./styles.css');
 
 class Rides extends Component {
@@ -99,4 +98,4 @@ class Rides extends Component {
 
 }
 
-module.exports = Rides;
+export default Rides;

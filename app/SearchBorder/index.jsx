@@ -1,12 +1,12 @@
-const React = require('react');
-const PropTypes = require('prop-types');
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Hr = ({ items, filteredItems, minWidth, defaultWidth }) => {
   function calculateStyles() {
     const percent = Math.max((filteredItems.length / items.length) * 10, minWidth);
     const width = `${filteredItems.length !== items.length ? percent : defaultWidth}%`;
     return {
-      'width': width,
+      width,
     };
   }
 
@@ -25,4 +25,4 @@ Hr.defaultProps = {
   defaultWidth: 100,
 };
 
-module.exports = Hr;
+export default Hr;

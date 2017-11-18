@@ -1,7 +1,7 @@
-const React = require('react');
-const moment = require('moment');
-const Map = require('../../Map');
-const PropTypes = require('prop-types');
+import React from 'react';
+import PropTypes from 'prop-types';
+import moment from 'moment';
+import Map from '../../Map';
 
 function RideItem({ ride }) {
   const startDate = moment(ride.startData).format('DD/MM');
@@ -21,4 +21,4 @@ RideItem.propTypes = {
   ride: PropTypes.object.isRequired,
 };
 
-module.exports = RideItem;
+export default RideItem;

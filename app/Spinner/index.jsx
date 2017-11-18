@@ -1,5 +1,6 @@
-const React = require('react');
-const PropTypes = require('prop-types');
+import React from 'react';
+import PropTypes from 'prop-types';
+
 require('./styles.css');
 
 function Spinner({ show }) {
@@ -22,4 +23,4 @@ Spinner.defaultProps = {
   show: false,
 };
 
-module.exports = Spinner;
+export default Spinner;

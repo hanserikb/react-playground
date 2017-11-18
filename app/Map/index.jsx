@@ -1,5 +1,5 @@
-const React = require('react');
-const PropTypes = require('prop-types');
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const key = 'AIzaSyACWR4zpkr4mDPvk3VK6OB49VAvNgqYDec';
 const mapSize = '150x150';
@@ -24,4 +24,4 @@ RideMap.propTypes = {
 };
 
 
-module.exports = RideMap;
+export default RideMap;

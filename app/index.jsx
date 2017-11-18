@@ -1,9 +1,9 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const Rides = require('./Rides');
-const Router = require('react-router-dom').BrowserRouter;
-const Route = require('react-router-dom').Route;
-const Nav = require('./Nav');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Rides from './Rides';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Nav from './Nav';
+
 require('./styles/styles.css');
 
 const About = () => (
@@ -35,7 +35,7 @@ class App extends React.Component {
   }
 }
 
-module.exports = App;
+export default App;
 ReactDOM.render(
   <Router path="/">
     <div>
