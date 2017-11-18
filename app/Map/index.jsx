@@ -1,5 +1,6 @@
 const React = require('react');
 const PropTypes = require('prop-types');
+
 const key = 'AIzaSyACWR4zpkr4mDPvk3VK6OB49VAvNgqYDec';
 const mapSize = '150x150';
 
@@ -12,15 +13,15 @@ const RideMap = ({ latLng }) => {
     'mapType=roadmap',
     redMarker,
     blueMarker,
-    `key=${key}`
+    `key=${key}`,
   ].join('&');
 
   return <img alt="Map" src={url} />;
 }
 
 RideMap.propTypes = {
-  latLng: PropTypes.array.isRequired
-}
+  latLng: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
 
 
 module.exports = RideMap;

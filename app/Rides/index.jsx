@@ -23,7 +23,6 @@ class Rides extends Component {
   }
 
   setRides(rides) {
-    console.log(rides);
     this.setState({
       rides,
     });
