@@ -80,15 +80,21 @@ class Rides extends Component {
   }
 
   render() {
-    return (<div className="rides">
-      { <Spinner show={this.state.loading} /> }
-      <input className="rides--filter" placeholder="Search..." type="text" onChange={this.onFilterTextChanged} />
-      { <Hr defaultWidth={90} filteredItems={this.state.filteredRides} items={this.state.rides}/>}
-      { this.state.rides.length && <ul className="rides--list">
-
-        { this.state.filteredRides.map((ride, index) => <RideItem key={index} ride={ride} />) }
-      </ul>}
-    </div>);
+    return (
+      <div className="rides">
+        <Spinner show={this.state.loading} />
+        <input
+          className="rides--filter"
+          placeholder="Search..."
+          type="text"
+          onChange={this.onFilterTextChanged}
+        />
+        <Hr defaultWidth={90} filteredItems={this.state.filteredRides} items={this.state.rides} />
+        { this.state.rides.length && <ul className="rides--list">
+          { this.state.filteredRides.map((ride, index) => <RideItem key={index} ride={ride} />) }
+        </ul>}
+      </div>
+    );
   }
 
 }
