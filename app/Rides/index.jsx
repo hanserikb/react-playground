@@ -1,28 +1,26 @@
 import React, { Component } from 'react';
+import moment from 'moment';
+import { connect } from 'react-redux';
 import RideItem from './RideItem';
 import Spinner from '../Spinner';
 import Hr from '../SearchBorder';
-import moment from 'moment';
 import RideService from '../RideService';
+import { fetchRides } from '../actions/rideActions';
+
 require('./styles.css');
 
 class Rides extends Component {
 
   constructor() {
     super();
-    this.fetchRides = this.fetchRides.bind(this);
+    this.sortRides = this.sortRides.bind(this);
     this.startLoading = this.startLoading.bind(this);
     this.stopLoading = this.stopLoading.bind(this);
     this.onFilterTextChanged = this.onFilterTextChanged.bind(this);
-    this.state = {
-      loading: false,
-      rides: [],
-      filteredRides: [],
-    };
   }
 
   componentDidMount() {
-    return this.fetchRides();
+    this.props.dispatch(fetchRides());
   }
 
   onFilterTextChanged(event) {
@@ -62,35 +60,27 @@ class Rides extends Component {
     });
   }
 
-  fetchRides() {
+  sortRides(data) {
     /* no-confusing-arrow: false */
-    function sortThings(rides) {
-      return rides.sort(ride => moment(ride.startData).isSame(new Date(), 'day') &&
-          moment(ride.endData).isSame(new Date(), 'day') ? -1 : 1);
-    }
+    return data.sort(ride => moment(ride.startData).isSame(new Date(), 'day') &&
+      moment(ride.endData).isSame(new Date(), 'day') ? -1 : 1);
 
-
-    return new Promise(resolve => resolve(this.startLoading))
-      .then(RideService.fetch)
-      .then(rides => sortThings(rides))
-      .then(rides => this.setRides(rides))
-      .then(this.stopLoading)
-      .catch(err => console.error('Something wrong happened: ', err));
   }
 
   render() {
+    console.log('Rendering ', this.props)
     return (
       <div className="rides">
-        <Spinner show={this.state.loading} />
+        <Spinner show={this.props.loading} />
         <input
           className="rides--filter"
           placeholder="Search..."
           type="text"
           onChange={this.onFilterTextChanged}
         />
-        <Hr defaultWidth={90} filteredItems={this.state.filteredRides} items={this.state.rides} />
-        { this.state.rides.length && <ul className="rides--list">
-          { this.state.filteredRides.map((ride, index) => <RideItem key={index} ride={ride} />) }
+        {/*<Hr defaultWidth={90} filteredItems={this.props.rides} items={this.props.rides} /> */}
+        { this.props.data.length && <ul className="rides--list">
+          { this.sortRides(this.props.data).map((ride, index) => <RideItem key={index} ride={ride} />) }
         </ul>}
       </div>
     );
@@ -98,4 +88,13 @@ class Rides extends Component {
 
 }
 
-export default Rides;
+function mapStateToProps(state, ownProps) {
+  console.log(state);
+  return {
+    title: ownProps.title,
+    loading: state.rides.loading,
+    data: state.rides.data,
+    filteredRides: state.rides.data,
+  };
+}
+export default connect(mapStateToProps)(Rides);

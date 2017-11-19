@@ -1,6 +1,6 @@
 const cacheData = require('./data.json');
 
-const RideService = {
+const RideService = (() => ({
   rides: null,
   fetch() {
     return new Promise((resolve) => {
@@ -17,6 +17,6 @@ const RideService = {
         });
     });
   },
-};
+}))();
 
-module.exports = RideService;
+export default RideService;
